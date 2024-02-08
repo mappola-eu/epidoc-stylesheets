@@ -198,7 +198,7 @@
       <xsl:choose>
          <xsl:when
             test="$parm-leiden-style = ('ddbdp','dclp','sammelbuch') and @unit = 'line' and @extent = 'unknown'"/>
-          <xsl:when test="$parm-leiden-style = 'panceira' and @unit = 'line' and @extent = 'unknown'"/>
+          <xsl:when test="$parm-leiden-style = 'panciera' and @unit = 'line' and @extent = 'unknown'"/>
          <xsl:when test="@unit='line'">
             <xsl:text>]</xsl:text>
          </xsl:when>
